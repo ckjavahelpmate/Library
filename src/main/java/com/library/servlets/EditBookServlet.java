@@ -46,6 +46,8 @@ public class EditBookServlet extends HttpServlet {
 		String pageno = req.getParameter("pageno");
 		session.setAttribute("target", target);
 		session.setAttribute("pageno", pageno );
+		
+		System.out.println("Edit servlet :: "+ pageno );
 
 		try
 		{
