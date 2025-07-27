@@ -18,13 +18,6 @@
   <param-name>url</param-name>
   <param-value>jdbc:mysql://localhost:3306/library</param-value>
   </context-param>
-  <context-param>
-  <param-name>username</param-name>
-  <param-value>root</param-value>
-  </context-param>
-  <context-param>
-  <param-name>password</param-name>
-  <param-value>root</param-value>
-  </context-param>
+ 
   
 </web-app>
